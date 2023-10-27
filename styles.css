@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: 3000ms ease-in-out;
+}
+
+button {
+    width: 25%;
+    height: 100vh;
+    border: none;
+    background-color: lightgray;
+    opacity: 0.025;
+}
+
+button:hover {
+    opacity: 0.4;
+    transition: 300ms ease-in;
+}
